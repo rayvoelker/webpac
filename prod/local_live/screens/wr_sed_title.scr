@@ -1,0 +1,53 @@
+
+mkdir tempdir
+sed 's/Millennium Web Catalog/The Public Library of Cincinnati & Hamilton County/' 403error.html > tempdir/403error.html
+sed 's/Millennium Web Catalog/The Public Library of Cincinnati & Hamilton County/' 403iperror.html > tempdir/403iperror.html
+sed 's/Millennium Web Catalog/The Public Library of Cincinnati & Hamilton County/' 403loginerror.html > tempdir/403loginerror.html
+sed 's/Millennium Web Catalog/The Public Library of Cincinnati & Hamilton County/' asrsconf.html > tempdir/asrsconf.html
+sed 's/Millennium Web Catalog/The Public Library of Cincinnati & Hamilton County/' asrsreq.html > tempdir/asrsreq.html
+sed 's/Millennium Web Catalog/The Public Library of Cincinnati & Hamilton County/' feeds.html > tempdir/feeds.html
+sed 's/Millennium Web Catalog/The Public Library of Cincinnati & Hamilton County/' help.html > tempdir/help.html
+sed 's/Millennium Web Catalog/The Public Library of Cincinnati & Hamilton County/' ill.html > tempdir/ill.html
+sed 's/Millennium Web Catalog/The Public Library of Cincinnati & Hamilton County/' libinfo.html > tempdir/libinfo.html
+sed 's/Millennium Web Catalog/The Public Library of Cincinnati & Hamilton County/' mainmenu.html > tempdir/mainmenu.html
+sed 's/Millennium Web Catalog/The Public Library of Cincinnati & Hamilton County/' mffavs.html > tempdir/mffavs.html
+sed 's/Millennium Web Catalog/The Public Library of Cincinnati & Hamilton County/' opacmenu.html > tempdir/opacmenu.html
+sed 's/Millennium Web Catalog/The Public Library of Cincinnati & Hamilton County/' opacmenu_pSTAFFTYPEHERE.html > tempdir/opacmenu_pSTAFFTYPEHERE.html
+sed 's/Millennium Web Catalog/The Public Library of Cincinnati & Hamilton County/' patronview_frame.html > tempdir/patronview_frame.html
+sed 's/Millennium Web Catalog/The Public Library of Cincinnati & Hamilton County/' programs.html > tempdir/programs.html
+sed 's/Millennium Web Catalog/The Public Library of Cincinnati & Hamilton County/' pverify2_web.html > tempdir/pverify2_web.html
+sed 's/Millennium Web Catalog/The Public Library of Cincinnati & Hamilton County/' pverify6_web.html > tempdir/pverify6_web.html
+sed 's/Millennium Web Catalog/The Public Library of Cincinnati & Hamilton County/' ratings.html > tempdir/ratings.html
+sed 's/Millennium Web Catalog/The Public Library of Cincinnati & Hamilton County/' resources_index.html > tempdir/resources_index.html
+sed 's/WebBridge Resolution Server/The Public Library of Cincinnati & Hamilton County/' rpro.html > tempdir/rpro.html
+sed 's/Millennium Web Catalog/The Public Library of Cincinnati & Hamilton County/' selfregconfirm.html > tempdir/selfregconfirm.html
+sed 's/Millennium Web Catalog/The Public Library of Cincinnati & Hamilton County/' srchhelp_,.html > tempdir/srchhelp_,.html
+sed 's/Millennium Web Catalog/The Public Library of Cincinnati & Hamilton County/' srchhelp_H_PROGREG.html > tempdir/srchhelp_H_PROGREG.html
+sed 's/Millennium Web Catalog/The Public Library of Cincinnati & Hamilton County/' srchhelp_J_PROGREG.html > tempdir/srchhelp_L_PROGREG.html
+sed 's/Millennium Web Catalog/The Public Library of Cincinnati & Hamilton County/' srchhelp_L_PROGREG.html > tempdir/srchhelp_L_PROGREG.html
+sed 's/Millennium Web Catalog/The Public Library of Cincinnati & Hamilton County/' srchhelp_P_PROGREG.html > tempdir/srchhelp_P_PROGREG.html
+sed 's/Millennium Web Catalog/The Public Library of Cincinnati & Hamilton County/' srchhelp_Q_PROGREG.html > tempdir/srchhelp_Q_PROGREG.html
+sed 's/Millennium Web Catalog/The Public Library of Cincinnati & Hamilton County/' srchhelp_X.html > tempdir/srchhelp_X.html
+sed 's/Millennium Web Catalog/The Public Library of Cincinnati & Hamilton County/' srchhelp_X_nojavascript.html > tempdir/srchhelp_X_nojavascript.html
+sed 's/Millennium Web Catalog/The Public Library of Cincinnati & Hamilton County/' srchhelp_Y.html > tempdir/srchhelp_Y.html
+sed 's/Millennium Web Catalog/The Public Library of Cincinnati & Hamilton County/' srchhelp_Z.html > tempdir/srchhelp_Z.html
+sed 's/Millennium Web Catalog/The Public Library of Cincinnati & Hamilton County/' srchhelp_a.html > tempdir/srchhelp_a.html
+sed 's/Millennium Web Catalog/The Public Library of Cincinnati & Hamilton County/' srchhelp_b.html > tempdir/srchhelp_b.html
+sed 's/Millennium Web Catalog/The Public Library of Cincinnati & Hamilton County/' srchhelp_c.html > tempdir/srchhelp_c.html
+sed 's/Millennium Web Catalog/The Public Library of Cincinnati & Hamilton County/' srchhelp_d.html > tempdir/srchhelp_d.html
+sed 's/Millennium Web Catalog/The Public Library of Cincinnati & Hamilton County/' srchhelp_e.html > tempdir/srchhelp_e.html
+sed 's/Millennium Web Catalog/The Public Library of Cincinnati & Hamilton County/' srchhelp_g.html > tempdir/srchhelp_g.html
+sed 's/Millennium Web Catalog/The Public Library of Cincinnati & Hamilton County/' srchhelp_i.html > tempdir/srchhelp_i.html
+sed 's/Millennium Web Catalog/The Public Library of Cincinnati & Hamilton County/' srchhelp_o.html > tempdir/srchhelp_o.html
+sed 's/Millennium Web Catalog/The Public Library of Cincinnati & Hamilton County/' srchhelp_p.html > tempdir/srchhelp_p.html
+sed 's/Millennium Web Catalog/The Public Library of Cincinnati & Hamilton County/' srchhelp_q.html > tempdir/srchhelp_q.html
+sed 's/Millennium Web Catalog/The Public Library of Cincinnati & Hamilton County/' srchhelp_r.html > tempdir/srchhelp_r.html
+sed 's/Millennium Web Catalog/The Public Library of Cincinnati & Hamilton County/' srchhelp_t.html > tempdir/srchhelp_t.html
+sed 's/Millennium Web Catalog/The Public Library of Cincinnati & Hamilton County/' srchhelp_w.html > tempdir/srchhelp_w.html
+sed 's/Millennium Web Catalog/The Public Library of Cincinnati & Hamilton County/' srchhelp_y_erm.html > tempdir/srchhelp_w_erm.html
+sed 's/Millennium Web Catalog/The Public Library of Cincinnati & Hamilton County/' srchhelp_y_erm_no_subject.html > tempdir/srchhelp_w_erm_no_subject.html
+sed 's/Millennium Web Catalog/The Public Library of Cincinnati & Hamilton County/' srchmod.html > tempdir/srchmod.html
+sed 's/Millennium Web Catalog/The Public Library of Cincinnati & Hamilton County/' wireless.html > tempdir/wireless.html
+sed 's/Millennium Web Catalog/The Public Library of Cincinnati & Hamilton County/' z39menu.html > tempdir/z39menu.html
+mv tempdir/* .
+rmdir tempdir
